@@ -1,0 +1,194 @@
+body {
+    margin: 0px;
+    color: white;
+    background: rgb(32, 33, 36);
+    height: 100vh;
+    cursor: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.section-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 2rem;
+    align-items: center;
+    padding: 0.5rem;
+}
+.google-more {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+}
+.google-more a {
+    color: white;
+    text-decoration: none;
+}
+.container-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.icon-more {
+    width: 2rem;
+    height: 2rem;
+}
+.icon-more a svg {
+    filter: invert(1);
+}
+.icon-user {
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+}
+.icon-user a {
+    height: 100%;
+    position: absolute;
+}
+
+.section-2 {
+    margin-top: 12rem;
+}
+.container-imageLogo {
+    text-align: center;
+}
+.container-imageLogo img {
+    width: 17rem;
+}
+.section-3 {
+    height: 140px;
+    margin-top: 1.5rem;
+}
+.container-form {
+    text-align: center;
+}
+.container-form .div1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    width: 36.5rem;
+    margin: auto;
+    height: 3rem;
+}
+.container-form .div2 button {
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.container-form .div2 button:hover {
+    box-shadow: rgba(17, 19, 19, 0.24) 0px 1px 3px;
+    background-color: rgb(38, 41, 42);
+    border-color: rgb(107, 100, 88);
+    color: rgb(219, 216, 211);
+}
+.container-search {
+    width: 1.3rem;
+    height: 1.3rem;
+    position: absolute;
+    left: 0.8rem;
+    transform: translateY(-50%);
+    top: 50%;
+    filter: contrast(0);
+    z-index: 1;
+}
+.container-textarea {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border: 1px solid gray;
+    border-radius: 4rem;
+}
+.container-textarea:hover {
+    background-color: rgb(38, 41, 42);
+    border-color: rgba(56, 61, 63, 0.5);
+}
+.container-textarea textarea {
+    background: transparent;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    resize: none;
+    position: absolute;
+    transform: translate(0, -50%);
+    top: 50%;
+    left: 2rem;
+    border-radius: unset;
+    color: white;
+    height: 1rem;
+    width: 80%;
+    border: none;
+}
+.container-textarea-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 4rem;
+    position: absolute;
+    right: 1rem;
+    transform: translateY(-50%);
+    top: 56%;
+}
+.container-textarea-icons svg {
+    width: 1.5rem;
+}
+.container-form .div2 {
+    margin-top: 1.3rem;
+}
+.section-4 {
+    display: flex;
+    justify-content: center;
+}
+.section-4 > div {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.section-4 > div a {
+    color: #8ab4f8;
+}
+.section-5 {
+    display: flex;
+    flex-direction: column;
+    background: #171717;
+    border: none;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.section-5 .div1 {
+    padding: 0rem 1.6rem;
+    border-bottom: 1px solid gray;
+}
+.section-5 .div1 p {
+    color: darkgray;
+    text-decoration: none;
+}
+.section-5 .div2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+}
+.section-5 .div2 a {
+    margin: .5rem;
+    color: darkgray;
+    text-decoration: none;
+}
